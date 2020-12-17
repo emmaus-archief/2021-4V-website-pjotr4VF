@@ -28,12 +28,21 @@ article {
 header {
     color: black;
     text-align: center;
+    
+}
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color:green;
+    color: black;
 }
 
 
-footer {
-    text-align: center;
-    padding-bottom: 10px;
+
+
+.tekst {
+    font-family: monospace;
+    font-size: 15px;
 }
 .tekst {
     font-family: monospace;
@@ -119,12 +128,12 @@ nav li a.active {
 }
 @keyframes fadein {
     0% { opacity:0;}
-    25% { opacity: 1;}
-    50% { opacity: 0;}
+
     100% { opacity: 1;}
 }
 .fadein {
-    animation: fadein 5s;
+    animation: fadein 10s;
+
 }
 
 
